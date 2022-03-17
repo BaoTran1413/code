@@ -1,0 +1,32 @@
+<form>
+  <h1> insert data: </h1>   
+    <h3>user name: </h3>
+    <input type="text" name="fuser" id="fuser" [(ngModel)]="user" required>
+    <h3>user mark:</h3>
+    <input type="text" name="fmark" id="fmark" [(ngModel)]="mark" required>
+    <br>
+    <br>
+    <!-- <input type="submit" name="sb" onclick="insert()"> <br>
+    <button type="submit" name="">submit</button>
+    <input type="submit" name="sb" onclick="select()"> <br> -->
+    <!-- <button onclick="insert()" >Insert</button> 
+    <br>
+    <br>
+    <button onclick="select()">select</button> -->
+    
+    <button type="button" class="btn btn-default" onclick="insert()" >Insert</button>
+    
+    <button type="button" class="btn btn-default" onclick="select()">select</button>
+     
+   
+    <div id="ketthuc"> </div>
+   
+    <!-- <input type="text" id="ketqua" placeholder="{{user}}"> -->
+</form>
+ 
+<!-- <script type="text/javascript">
+    function sub(){
+        var name=document.getElementById('fuser').value;
+        document.getElementById('ketqua').value = name;
+    }
+ </script> -->
